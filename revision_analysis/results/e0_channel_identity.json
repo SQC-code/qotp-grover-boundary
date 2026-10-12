@@ -1,0 +1,174 @@
+{
+  "seed": 20260928,
+  "tol": 1e-10,
+  "checks": [
+    {
+      "name": "n=2 r=0 basis states",
+      "max_dev": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "name": "n=2 r=0 Haar pure + mixed",
+      "max_dev": 2.7755575615628914e-16,
+      "pass": true
+    },
+    {
+      "name": "n=2 r=1 basis states",
+      "max_dev": 1.5543122344752192e-15,
+      "pass": true
+    },
+    {
+      "name": "n=2 r=1 Haar pure + mixed",
+      "max_dev": 1.5543122344752192e-15,
+      "pass": true
+    },
+    {
+      "name": "n=2 r=5 basis states",
+      "max_dev": 1.7763568394002505e-15,
+      "pass": true
+    },
+    {
+      "name": "n=2 r=5 Haar pure + mixed",
+      "max_dev": 1.915134717478395e-15,
+      "pass": true
+    },
+    {
+      "name": "n=2 r=1 padded |kappa> (3 pads)",
+      "max_dev": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "name": "n=3 r=0 basis states",
+      "max_dev": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "name": "n=3 r=0 Haar pure + mixed",
+      "max_dev": 1.5265566588595902e-16,
+      "pass": true
+    },
+    {
+      "name": "n=3 r=1 basis states",
+      "max_dev": 1.5543122344752192e-15,
+      "pass": true
+    },
+    {
+      "name": "n=3 r=1 Haar pure + mixed",
+      "max_dev": 7.771561172376096e-16,
+      "pass": true
+    },
+    {
+      "name": "n=3 r=2 basis states",
+      "max_dev": 4.218847493575595e-15,
+      "pass": true
+    },
+    {
+      "name": "n=3 r=2 Haar pure + mixed",
+      "max_dev": 2.0539125955565396e-15,
+      "pass": true
+    },
+    {
+      "name": "n=3 r=7 basis states",
+      "max_dev": 6.772360450213455e-15,
+      "pass": true
+    },
+    {
+      "name": "n=3 r=7 Haar pure + mixed",
+      "max_dev": 4.551914400963142e-15,
+      "pass": true
+    },
+    {
+      "name": "n=3 r=2 padded |kappa> (3 pads)",
+      "max_dev": 2.1649348980190553e-15,
+      "pass": true
+    },
+    {
+      "name": "n=4 r=0 basis states",
+      "max_dev": 4.163336342344337e-17,
+      "pass": true
+    },
+    {
+      "name": "n=4 r=0 Haar pure + mixed",
+      "max_dev": 1.457167719820518e-16,
+      "pass": true
+    },
+    {
+      "name": "n=4 r=1 basis states",
+      "max_dev": 1.8318679906315083e-15,
+      "pass": true
+    },
+    {
+      "name": "n=4 r=1 Haar pure + mixed",
+      "max_dev": 6.522560269672795e-16,
+      "pass": true
+    },
+    {
+      "name": "n=4 r=3 basis states",
+      "max_dev": 8.659739592076221e-15,
+      "pass": true
+    },
+    {
+      "name": "n=4 r=3 Haar pure + mixed",
+      "max_dev": 2.0816681711721685e-15,
+      "pass": true
+    },
+    {
+      "name": "n=4 r=9 basis states",
+      "max_dev": 2.8310687127941492e-14,
+      "pass": true
+    },
+    {
+      "name": "n=4 r=9 Haar pure + mixed",
+      "max_dev": 9.603429163007604e-15,
+      "pass": true
+    },
+    {
+      "name": "n=4 r=3 padded |kappa> (3 pads)",
+      "max_dev": 4.385380947269368e-15,
+      "pass": true
+    },
+    {
+      "name": "anchor: n=4 keys{2,15} r=3  P(Y in keys) = p_r + q_r",
+      "max_dev": 8.992806499463768e-15,
+      "pass": true
+    },
+    {
+      "name": "n=2 r=0 entangled cq ensemble honest = mimic",
+      "max_dev": 1.133170055521815e-16,
+      "pass": true
+    },
+    {
+      "name": "n=2 r=1 entangled cq ensemble honest = mimic",
+      "max_dev": 8.065317011406903e-16,
+      "pass": true
+    },
+    {
+      "name": "n=2 r=5 entangled cq ensemble honest = mimic",
+      "max_dev": 1.7763568394002505e-15,
+      "pass": true
+    },
+    {
+      "name": "n=3 r=0 entangled cq ensemble honest = mimic",
+      "max_dev": 8.326672684688674e-17,
+      "pass": true
+    },
+    {
+      "name": "n=3 r=2 entangled cq ensemble honest = mimic",
+      "max_dev": 1.041425325194118e-15,
+      "pass": true
+    },
+    {
+      "name": "n=3 r=7 entangled cq ensemble honest = mimic",
+      "max_dev": 2.0357120619967404e-15,
+      "pass": true
+    }
+  ],
+  "code_md5": {
+    "trapdoor_grover.py": "57390cca12d45c37132aeaddffd8818a"
+  },
+  "anchor_value": {
+    "P_marked": 0.963897705078116,
+    "p_plus_q": 0.963897705078125
+  },
+  "all_pass": true
+}

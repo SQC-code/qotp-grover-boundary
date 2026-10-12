@@ -1,0 +1,34 @@
+{
+  "n": 4,
+  "r": 3,
+  "tol": 1e-10,
+  "enumeration": "ALL joint pads (a,b) in {0..15}^2 per marked set",
+  "rows_per_set": 256,
+  "sets": [
+    "M1_{9}",
+    "M2_{3,12}",
+    "M3_{1,6,11}",
+    "M2_{2,15}_endtoend"
+  ],
+  "arm": {
+    "M1_{9}": {
+      "max_TV_vs_unpadded": 6.735063895479954e-16,
+      "TV_unpadded_vs_analytic": 5.230191280070073e-15
+    },
+    "M2_{3,12}": {
+      "max_TV_vs_unpadded": 8.493639819251442e-16,
+      "TV_unpadded_vs_analytic": 4.59918561568351e-15
+    },
+    "M3_{1,6,11}": {
+      "max_TV_vs_unpadded": 4.720616259001886e-16,
+      "TV_unpadded_vs_analytic": 5.208507236620363e-15
+    },
+    "M2_{2,15}_endtoend": {
+      "max_TV_vs_unpadded": 7.149229125369416e-16,
+      "TV_unpadded_vs_analytic": 4.7080395138010545e-15
+    }
+  },
+  "total_rows": 1024,
+  "overall_max_TV": 5.230191280070073e-15,
+  "pass": true
+}

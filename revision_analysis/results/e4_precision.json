@@ -1,0 +1,158 @@
+{
+  "input_md5": {
+    "m_variation_results.json": "5b052f3edaf6e857b6bff79ad49b206d",
+    "scaling_results.json": "f85d44e125d6eabb185bca52f689e2c4"
+  },
+  "msweep": [
+    {
+      "M": 1,
+      "marked": 2048,
+      "shots": 2048,
+      "ratio_6dp": 1.0,
+      "ratio_integral": true,
+      "cp95": [
+        0.9982004105354623,
+        1.0
+      ],
+      "theory_6dp": 0.999947,
+      "theory_12dp": 0.9999470421032736
+    },
+    {
+      "M": 2,
+      "marked": 2048,
+      "shots": 2048,
+      "ratio_6dp": 1.0,
+      "ratio_integral": true,
+      "cp95": [
+        0.9982004105354623,
+        1.0
+      ],
+      "theory_6dp": 0.999947,
+      "theory_12dp": 0.9999472497812999
+    },
+    {
+      "M": 4,
+      "marked": 2048,
+      "shots": 2048,
+      "ratio_6dp": 1.0,
+      "ratio_integral": true,
+      "cp95": [
+        0.9982004105354623,
+        1.0
+      ],
+      "theory_6dp": 0.999948,
+      "theory_12dp": 0.9999476651373527
+    },
+    {
+      "M": 8,
+      "marked": 2048,
+      "shots": 2048,
+      "ratio_6dp": 1.0,
+      "ratio_integral": true,
+      "cp95": [
+        0.9982004105354623,
+        1.0
+      ],
+      "theory_6dp": 0.999948,
+      "theory_12dp": 0.9999484958494582
+    }
+  ],
+  "scaling": [
+    {
+      "n": 4,
+      "r": 3,
+      "theory_12dp": 0.963897705078125,
+      "theory_6dp": 0.963898,
+      "n_pads": 1,
+      "shots": 2048,
+      "marked": 1979,
+      "ratio_6dp": 0.966309,
+      "ratio_integral": true,
+      "cp95": [
+        0.9575531157939605,
+        0.9736934407447974
+      ]
+    },
+    {
+      "n": 6,
+      "r": 6,
+      "theory_12dp": 0.9966398763298657,
+      "theory_6dp": 0.99664,
+      "n_pads": 20,
+      "shots": 2048,
+      "per_pad_marked": [
+        2043,
+        2044,
+        2039,
+        2037,
+        2041,
+        2041,
+        2041,
+        2046,
+        2043,
+        2042,
+        2042,
+        2043,
+        2044,
+        2037,
+        2042,
+        2041,
+        2041,
+        2036,
+        2037,
+        2040
+      ],
+      "mean_ratio_6dp": 0.996582,
+      "std_ratio_6dp": 0.001306,
+      "pooled_cp95": [
+        0.9959679046053735,
+        0.9971239960129178
+      ]
+    },
+    {
+      "n": 8,
+      "r": 12,
+      "theory_12dp": 0.9999472497812999,
+      "theory_6dp": 0.999947,
+      "n_pads": 1,
+      "shots": 2048,
+      "marked": 2048,
+      "ratio_6dp": 1.0,
+      "ratio_integral": true,
+      "cp95": [
+        0.9982004105354623,
+        1.0
+      ]
+    },
+    {
+      "n": 10,
+      "r": 25,
+      "theory_12dp": 0.9994617713868865,
+      "theory_6dp": 0.999462,
+      "n_pads": 1,
+      "shots": 2048,
+      "marked": 2048,
+      "ratio_6dp": 1.0,
+      "ratio_integral": true,
+      "cp95": [
+        0.9982004105354623,
+        1.0
+      ]
+    },
+    {
+      "n": 12,
+      "r": 50,
+      "theory_12dp": 0.9999453594556077,
+      "theory_6dp": 0.999945,
+      "n_pads": 1,
+      "shots": 2048,
+      "marked": 2048,
+      "ratio_6dp": 1.0,
+      "ratio_integral": true,
+      "cp95": [
+        0.9982004105354623,
+        1.0
+      ]
+    }
+  ]
+}

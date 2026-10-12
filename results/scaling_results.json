@@ -1,0 +1,351 @@
+[
+  {
+    "n": 4,
+    "N": 16,
+    "M": 2,
+    "n_iter": 3,
+    "depth": 174,
+    "cx_count": 110,
+    "single_qubit_count": 124,
+    "client_depth": 4,
+    "client_cx": 2,
+    "client_1q": 4,
+    "server_depth": 170,
+    "server_cx": 108,
+    "server_1q": 118,
+    "gate_counts": {
+      "cx": 110,
+      "u1": 66,
+      "u3": 29,
+      "u2": 29,
+      "barrier": 11,
+      "measure": 4
+    },
+    "resource_pad": [
+      15,
+      6
+    ],
+    "integrity_pads": [
+      [
+        13,
+        12
+      ]
+    ],
+    "sim_time_s": 0.030073200003243983,
+    "integrity_ratio": 0.96630859375,
+    "integrity_std": null,
+    "integrity_raw": [
+      0.96630859375
+    ],
+    "n_pads": 1,
+    "shots": 2048,
+    "seed_transpiler": 20260715,
+    "seed_simulator_per_pad": [
+      20264715
+    ],
+    "aer_method": "statevector",
+    "opt_level": 2
+  },
+  {
+    "n": 6,
+    "N": 64,
+    "M": 2,
+    "n_iter": 6,
+    "depth": 824,
+    "cx_count": 484,
+    "single_qubit_count": 588,
+    "client_depth": 6,
+    "client_cx": 4,
+    "client_1q": 6,
+    "server_depth": 807,
+    "server_cx": 480,
+    "server_1q": 582,
+    "gate_counts": {
+      "cx": 484,
+      "u1": 290,
+      "u2": 223,
+      "u3": 75,
+      "barrier": 17,
+      "measure": 6
+    },
+    "resource_pad": [
+      10,
+      44
+    ],
+    "integrity_pads": [
+      [
+        52,
+        16
+      ],
+      [
+        36,
+        27
+      ],
+      [
+        17,
+        35
+      ],
+      [
+        24,
+        30
+      ],
+      [
+        15,
+        39
+      ],
+      [
+        38,
+        57
+      ],
+      [
+        1,
+        45
+      ],
+      [
+        27,
+        4
+      ],
+      [
+        11,
+        39
+      ],
+      [
+        36,
+        53
+      ],
+      [
+        52,
+        8
+      ],
+      [
+        49,
+        51
+      ],
+      [
+        13,
+        34
+      ],
+      [
+        28,
+        58
+      ],
+      [
+        45,
+        59
+      ],
+      [
+        57,
+        11
+      ],
+      [
+        18,
+        25
+      ],
+      [
+        38,
+        47
+      ],
+      [
+        45,
+        5
+      ],
+      [
+        0,
+        22
+      ]
+    ],
+    "sim_time_s": 0.02624570000625681,
+    "integrity_ratio": 0.99658203125,
+    "integrity_std": 0.0013063594805858177,
+    "integrity_raw": [
+      0.99755859375,
+      0.998046875,
+      0.99560546875,
+      0.99462890625,
+      0.99658203125,
+      0.99658203125,
+      0.99658203125,
+      0.9990234375,
+      0.99755859375,
+      0.9970703125,
+      0.9970703125,
+      0.99755859375,
+      0.998046875,
+      0.99462890625,
+      0.9970703125,
+      0.99658203125,
+      0.99658203125,
+      0.994140625,
+      0.99462890625,
+      0.99609375
+    ],
+    "n_pads": 20,
+    "shots": 2048,
+    "seed_transpiler": 20260715,
+    "seed_simulator_per_pad": [
+      20266715,
+      20266716,
+      20266717,
+      20266718,
+      20266719,
+      20266720,
+      20266721,
+      20266722,
+      20266723,
+      20266724,
+      20266725,
+      20266726,
+      20266727,
+      20266728,
+      20266729,
+      20266730,
+      20266731,
+      20266732,
+      20266733,
+      20266734
+    ],
+    "aer_method": "statevector",
+    "opt_level": 2
+  },
+  {
+    "n": 8,
+    "N": 256,
+    "M": 2,
+    "n_iter": 12,
+    "depth": 2410,
+    "cx_count": 1398,
+    "single_qubit_count": 1648,
+    "client_depth": 8,
+    "client_cx": 6,
+    "client_1q": 6,
+    "server_depth": 2379,
+    "server_cx": 1392,
+    "server_1q": 1640,
+    "gate_counts": {
+      "cx": 1398,
+      "u1": 771,
+      "u2": 681,
+      "u3": 196,
+      "barrier": 29,
+      "measure": 8
+    },
+    "resource_pad": [
+      11,
+      102
+    ],
+    "integrity_pads": [
+      [
+        47,
+        49
+      ]
+    ],
+    "sim_time_s": 0.06856149999657646,
+    "integrity_ratio": 1.0,
+    "integrity_std": null,
+    "integrity_raw": [
+      1.0
+    ],
+    "n_pads": 1,
+    "shots": 2048,
+    "seed_transpiler": 20260715,
+    "seed_simulator_per_pad": [
+      20268715
+    ],
+    "aer_method": "statevector",
+    "opt_level": 2
+  },
+  {
+    "n": 10,
+    "N": 1024,
+    "M": 2,
+    "n_iter": 25,
+    "depth": 6612,
+    "cx_count": 3808,
+    "single_qubit_count": 4420,
+    "client_depth": 10,
+    "client_cx": 8,
+    "client_1q": 9,
+    "server_depth": 6553,
+    "server_cx": 3800,
+    "server_1q": 4410,
+    "gate_counts": {
+      "cx": 3808,
+      "u1": 2002,
+      "u2": 1911,
+      "u3": 507,
+      "barrier": 55,
+      "measure": 10
+    },
+    "resource_pad": [
+      359,
+      737
+    ],
+    "integrity_pads": [
+      [
+        524,
+        408
+      ]
+    ],
+    "sim_time_s": 0.4777162000100361,
+    "integrity_ratio": 1.0,
+    "integrity_std": null,
+    "integrity_raw": [
+      1.0
+    ],
+    "n_pads": 1,
+    "shots": 2048,
+    "seed_transpiler": 20260715,
+    "seed_simulator_per_pad": [
+      20270715
+    ],
+    "aer_method": "statevector",
+    "opt_level": 2
+  },
+  {
+    "n": 12,
+    "N": 4096,
+    "M": 2,
+    "n_iter": 50,
+    "depth": 16414,
+    "cx_count": 9410,
+    "single_qubit_count": 10822,
+    "client_depth": 12,
+    "client_cx": 10,
+    "client_1q": 10,
+    "server_depth": 16303,
+    "server_cx": 9400,
+    "server_1q": 10812,
+    "gate_counts": {
+      "cx": 9410,
+      "u2": 4813,
+      "u1": 4803,
+      "u3": 1206,
+      "barrier": 105,
+      "measure": 12
+    },
+    "resource_pad": [
+      3904,
+      620
+    ],
+    "integrity_pads": [
+      [
+        982,
+        4037
+      ]
+    ],
+    "sim_time_s": 36.44537610000407,
+    "integrity_ratio": 1.0,
+    "integrity_std": null,
+    "integrity_raw": [
+      1.0
+    ],
+    "n_pads": 1,
+    "shots": 2048,
+    "seed_transpiler": 20260715,
+    "seed_simulator_per_pad": [
+      20272715
+    ],
+    "aer_method": "statevector",
+    "opt_level": 2
+  }
+]

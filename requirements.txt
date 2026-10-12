@@ -1,0 +1,6 @@
+# Exact environment used for every number in the manuscript (Python 3.14.4)
+numpy==2.4.4
+scipy==1.17.1
+matplotlib==3.10.9
+qiskit==2.4.1
+qiskit-aer==0.17.2
