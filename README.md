@@ -7,9 +7,9 @@ single-register delegated Grover search** — Juyoung Kim (ETRI).
 *Scientific Reports*, submission 31c9d045-ccfc-49c3-a00a-8de9083c7b11
 (major revision, 2026-09).
 
-Release: **v2.0** (2026-09-28). DOI: *pending author deposit in a
-DOI-minting repository (e.g. Zenodo); this placeholder is replaced by the
-version DOI at deposit.*
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23307281.svg)](https://doi.org/10.5281/zenodo.23307281)
+
+Release: **v2.0** (2026-09-28). Archived at Zenodo: [10.5281/zenodo.23307281](https://doi.org/10.5281/zenodo.23307281).
 
 ```
 code/                 simulation library + experiment/figure scripts
